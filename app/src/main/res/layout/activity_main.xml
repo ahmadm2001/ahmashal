@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/LW1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mashal.ahmashal.MainActivity">
+
+    <ToggleButton
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:textOn="working"
+        android:textOff="not working"
+        android:onClick="ahmad010"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+
+    <Switch
+        android:id="@+id/sw1"
+        android:layout_width="102dp"
+        android:layout_height="59dp"
+        android:textOn="On"
+        android:textOff="Off"
+        android:onClick="ahah"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="mashal"
+        android:layout_height="wrap_content"
+        android:text="Checker" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
